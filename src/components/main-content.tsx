@@ -46,7 +46,7 @@ export const MainContent = () => {
     }
     
     try {
-      const response = await fetch(`${be_url}/api/mcq`, {
+      const response = await fetch(`${be_url}/mcq`, {
         method: "POST",
         body: formData
       });
